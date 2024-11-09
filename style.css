@@ -7,54 +7,96 @@ box-sizing: border-box;
 font-family: "Roboto", sans-serif;
 }
 
+body{
+max-width: 900px; 
+margin: 0 auto;
+background-color: #1f2937;
+}
+
 ul{
 display: flex;
+align-items: center;
 margin: 0;
 padding: 0;
 list-style-type: none;
+gap: 10px;
 }
 
 li{
 color: #e5e7e8;
 font-size: 16px;
-padding: 10px;
+padding: 10px 0;
 }
 
 header{
-padding: 10px;
+padding: 10px 0;
 }
 
 li a:visited{
-color: #e5e7e8;
+color: #E5E7EB;
 }
 
 a{
 text-decoration: none;
+cursor: pointer;
 }
 
 .headerlogo{
-    padding: 10px;
+padding: 10px 0;
 color: #f9faf8;
 font-size: 24px;
 text-align: center;
 }
-
 
 header{
 background-color: #1f2937;
 display: flex;
 justify-content: space-between;
 }
+ 
+.wellcome{
+background-color: #1f2937;
+display: flex;
+justify-content: space-between;
+padding: 40px 0;
+gap: 20px;
+}
+
+.wellcome-image img{
+width: 27em;
+height: auto;
+border-radius: 10px;
+}
+
+.wellcome-text{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 27em;
+
+}
+
+.wellcome-text h1{
+font-size: 48px;
+font-weight: 900;
+color: #F9FAF8;
+}
+
+.wellcome-text p{
+font-size: 18px;
+color: #F9FAF8;
+}
+    
+
+.elements{
+height: 300px;
+}
 
 
+features-container figure{
+
+height: 100px;
+width: 150px;
 
 
-
-
-
-
-
-
-
-
-
+}
